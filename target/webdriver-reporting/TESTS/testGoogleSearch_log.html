@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>WebDriver Report</title>
+ <LINK href="../jquery-ui-1.8.5.custom.css" rel="stylesheet" type="text/css"> <LINK href="../style.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="../jquery-1.4.2.min.js"></script><script type="text/javascript" src="../jquery-ui-1.8.5.custom.min.js"></script><script type="text/javascript" src="../util.js"></script><style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}.buttonStyle { color: #900; border: 1px solid #900; font-weight: bold;  float: right;}
+table{table-layout: fixed;}td{text-align: left;padding-top: 4px;padding-bottom: 4px;padding-left: 8px;padding-right: 0px;}th {background: #336699; color: #FFFFFF; text-align: left;}.timeClass{width:5%;}
+-->
+</style>
+</head>
+<body onload="init();" bgcolor="#D8D8D8" topmargin="0" leftmargin="0">
+<font size="2">Log session start time Mon Aug 19 02:20:43 GMT+08:00 2013</font><br>
+<hr size="1" noshade>
+<div id="status" width="100%"> </div>
+
+
+<div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="1376850043775" ALIGN="left" border="1" width="100%">
+
+<div class="container" id="1376850043775container" name="testGoogleSearch"><div class="row">
+<div class="cell1"></div>
+<div class="cell2"><input class="ui-button ui-widget ui-state-default ui-corner-all buttonStyle" id="1376850043775showId" type="button" align="right" value="Show Technical Logs" onclick="showLog(1376850043775)" /><input class="ui-button ui-widget ui-state-default ui-corner-all buttonStyle" style="display:none;" id="1376850043775hideId" type="button" align="right" value="Hide Technical Logs" onclick="hideLog(1376850043775)" /><input class="ui-button ui-widget ui-state-default ui-corner-all buttonStyle" id="1376850043775showIdBiz" type="button" align="right" value="Show Business Logs" onclick="showLogBiz(1376850043775)" /><input class="ui-button ui-widget ui-state-default ui-corner-all buttonStyle" style="display:none;" id="1376850043775hideIdBiz" type="button" align="right" value="Hide Business Logs" onclick="hideLogBiz(1376850043775)" /><span class="spanClass">Test Name: Start Test: webdriver.reporting.tests.SampleGoogleSearchReportTest.testGoogleSearch</span></div>
+</div>
+<div class="row" style="display:none;">
+<div class="cell1"></div>
+<div class="cell2"><span class="spanClass">Action taken:  Go to URL http://www.google.com</span></div>
+</div>
+<div class="rowImg" style="display:none;">
+<div class="cell1"></div>
+<div class="cell2"><span class="spanClass">Action taken: Setting value 'Mifos' on 'Search', element with ID lst-ib^screen</span><img src='../screenshots/screenshot6293495812603799534.png' alt='test'></img></div>
+</div>
+<div class="row" style="display:none;" id="">
+<div class="cell1"></div>
+<div class="cell2">STACKTRACE:java.lang.AssertionError: Expected Fails!
+	at org.junit.Assert.fail(Assert.java:88)
+	at webdriver.reporting.tests.SampleGoogleSearchReportTest.testGoogleSearch(SampleGoogleSearchReportTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+<span class="spanClassST" id="1.3768500478374094E12ST">Exception Message: 1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+</span></div>
+</div>
+<div class="row" style="display:none;">
+<div class="cell1"></div>
+<div class="cell2">Class: Failed: webdriver.reporting.tests.SampleGoogleSearchReportTest.testGoogleSearch<span class="spanClass">Action taken: Failed: webdriver.reporting.tests.SampleGoogleSearchReportTest.testGoogleSearch</span></div>
+</div>
+<div class="row" style="display:none;">
+<div class="cell1"></div>
+<div class="cell2">Class: End Test: webdriver.reporting.tests.SampleGoogleSearchReportTest.testGoogleSearch<span class="spanClass">Action taken: End Test: webdriver.reporting.tests.SampleGoogleSearchReportTest.testGoogleSearch</span></div>
+</div>
+
+</div></div>
+<br>
+</div></body></html>
